@@ -1,5 +1,5 @@
 ################################################################################ SA
-#
+#----
 #  Permission is hereby granted, free of charge, to any person obtaining a
 #  copy of this software and associated documentation files (the "Software"),
 #  to deal in the Software without restriction, including without limitation
@@ -32,7 +32,6 @@ N = 500
 
 def getDataPoint(quote):
 	""" Produce all of the needed values to generate a datapoint """
-	""" ------------- Update this function ------------- """
 	stock = quote['stock']
 	bid_price = float(quote['top_bid']['price'])
 	ask_price = float(quote['top_ask']['price'])
@@ -40,12 +39,12 @@ def getDataPoint(quote):
 	return stock, bid_price, ask_price, price
 
 def getRatio(price_a, price_b):
-	""" Get ratio of price_a and price_b """
 	""" ------------- Update this function ------------- """
 	""" Also create some unit tests for this function in client_test.py """
 	if(price_b==0):
 		return
-	return price_a/price_b
+	return price_a/price_b # Getting ratio from stock_1 and stock_2
+
 
 # Main
 if __name__ == "__main__":
