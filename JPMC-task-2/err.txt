@@ -1,0 +1,11 @@
+Failed to compile
+/Users/sandroamaglobeli/Documents/GitHub/JPMorganChase-SWE-Internship/JPMC-tech-task-2-PY3/src/Graph.tsx
+Type error: Cannot find module '@jpmorganchase/perspective'.  TS2307
+
+    1 | import React, { Component } from 'react';
+  > 2 | import { Table } from '@jpmorganchase/perspective';
+      |                       ^
+    3 | import { ServerRespond } from './DataStreamer';
+    4 | import './Graph.css';
+    5 | 
+This error occurred during the build time and cannot be dismissed.

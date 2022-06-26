@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { Table } from '@jpmorganchase/perspective';
+import { Table } from '@finos/perspective';
 import { ServerRespond } from './DataStreamer';
 import './Graph.css';
 
+// OLD import { Table } from '@jpmorganchase/perspective';
+// NEW import { Table } from '@finos/perspective';
 /**
  * Props declaration for <Graph />
  */
